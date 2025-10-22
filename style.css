@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    border-top: 4px solid orange;
+    height: 100px;
+    line-height: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 17.5px;
+
+
+}
+
+nav ul li button {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+main {
+    background-color: rgb(51, 47, 47);
+    color: white;
+    padding: 50px;
+    height: 400px;
+}
+
+main .container {
+    gap: 150px;
+}
+
+main .container p,
+h1 {
+    margin: 50px 0;
+}
+
+aside .container h1 {
+    font-size: 50px;
+
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.pythonb {
+    margin-left: 20px;
+}
+
+aside {
+    padding: 200px 0;
+
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.content {
+    display: flex;
+    margin: 100px;
+
+}
+
+.content div {
+    width: 33.3%;
+}
+
+
+
+
+
+.icon {
+    background-color: rgb(235, 204, 146);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.book {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    background-color: rgb(87, 77, 77);
+    color: white;
+    position: relative;
+    margin-top: 200px;
+}
+
+.book div {
+    width: 50%;
+}
+
+.book h2,
+p {
+    margin: 10px;
+}
+
+.bookimg {
+    border-radius: 0;
+    margin-left: 20px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.book h1 p {
+    margin-top: 35px 0;
+    font-size: 8px;
+}
+
+footer .container ul li {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(240, 234, 234);
+    padding: 50px 0;
+}
+
+.logo_icons {
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.urg {
+    display: flex;
+    gap: 20px;
+}
+
+.lists {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1070px;
+    margin: 0 auto;
+
+}
+
+.lists ul {
+    list-style: none;
+}
+
+.active {
+    color: orange;
+}
+
+span {
+
+    color: orange;
+
+}
